@@ -1,0 +1,219 @@
+.navbar{
+    background-color: black;
+    height: 70px;
+    position: fixed;
+    
+}
+
+.line{
+    height: 30px;
+    width: 1px;
+    background-color: white;
+    margin-right: 4rem;
+    
+}
+.sign{
+    color: white;
+    margin-right: 2rem;
+} 
+.logIn{
+    height: 50px;
+    width: 120px;
+    border-radius: 100px;
+    font-size: 1.25rem;
+    background-color: #fff;
+    color: black;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .dropdown-menu {
+    position: absolute !important;
+    top: 50px;  /* adjust as needed */
+    left: 10px; /* adjust as needed */
+    z-index: 9999;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    overflow: visible;
+  }
+}
+
+.img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    background-size: cover;
+    /* margin-right: 0.4rem; */
+}
+.d-flex{
+    /* margin-right: 50rem; */
+    height: 50px;
+    
+}
+#navbarSupportedContent{
+    margin-left: 35rem;
+}
+
+.main{
+   
+    background-color: black;
+}
+ .contentArea{
+    display: flex;
+} 
+.homePage{
+    height: 100vh;
+    width: 700px;
+    border-radius: 1rem;
+    background-color: rgb(23, 22, 22);
+    color: white;
+    margin-right: 0.5rem;
+    
+}
+.libIcon{
+    font-size: 1.25rem;
+    
+    
+}
+.addIcon {
+    font-size: 1.25rem;
+    opacity: 0.7;
+    padding-left: 6rem;
+}
+.addIcon:hover{
+    opacity: 1;
+}
+
+.library{
+    height: 50px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 50px 1px 20px;
+    opacity: 0.7;
+    background-color: rgb(23, 22, 22);
+}
+.library:hover{
+    opacity: 1;
+}
+
+
+.library i {
+   font-size: 1.65rem;
+}
+.library a {
+    text-decoration: none;
+    color: white;
+    margin-left:0.7rem ;
+    
+}
+.Allcreate{
+    height: 16rem;
+    overflow: auto;
+    
+}
+.create{
+    height: 10rem;
+    background-color: rgb(87, 87, 88);
+    border-radius: 1rem;
+    margin: 30px 13px 0px 10px;
+    padding: 1rem 1.25rem;
+    /* overflow: auto; */
+}
+.text1{
+    font-weight: bold;
+    font-size: 1.5rem;
+   
+}
+.text2{
+    margin: 0.25rem;
+    opacity: 0.7;
+}
+.badg{
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 0.75rem;
+    font-size: 1rem;
+}
+
+.txt a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    padding: 1rem;
+    display: flex;
+}
+.txt a:hover{
+    opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+    .text1 {
+      font-size: 1rem;
+    }
+
+    .text2 {
+      font-size: 0.875rem;
+    }
+
+    .badg {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+
+    .libIcon a {
+      font-size: 0.95rem;
+    }
+
+    .libIcon i, .addIcon i {
+      font-size: 1rem;
+    }
+  }
+
+
+
+.songsArea{
+    height: 100vh;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(23, 22, 22);
+    color: black;
+    overflow: auto;
+} 
+.Tsongs{
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+card{
+    background-color: black;
+    height: 10px;
+}
+
+
+.songsContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem; /* spacing between cards */
+    justify-content: center; /* center the row */
+  }
+
+  .songsContent .col-12 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .songsContent .card {
+    width: 10rem;         /* fixed width */
+    height: 24rem;        /* optional fixed height */
+    flex-shrink: 0;       /* don't allow shrinking */
+  }
