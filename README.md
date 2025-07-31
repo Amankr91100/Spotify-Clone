@@ -26,6 +26,7 @@ The **Spotify Clone** is a frontend-only project designed to replicate the appea
 
 🖼️ Screenshots
 
+<img width="1901" height="969" alt="Screenshot 2025-07-31 220757" src="https://github.com/user-attachments/assets/04608ae5-333e-4be6-8575-287f1a21e3ee" />
 
 
 ## 📁 Folder Structure
